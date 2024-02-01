@@ -1,0 +1,20 @@
+{
+  "include": [ "src" ],
+  "exclude": [
+    "src/just/example",
+  ],
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "outDir": "functions",
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2017",
+    "moduleResolution": "node",
+    "typeRoots": ["node_modules/@types"]  // <-- here
+  },
+  "compileOnSave": true,
+}
